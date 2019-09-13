@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "fr.tntgun.teacherbox",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.2.0",
+    "applicationType": "monolith",
+    "baseName": "TeacherBox",
+    "packageName": "fr.tntgun.teacherbox",
+    "packageFolder": "fr/tntgun/teacherbox",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NWUwMDJlNzFiZDM5YjAxMTM1ZjhhYzgxYjYyNzkwODM5ZDg0OTg0MjVkZjI2ZTk0YzViNTMzMjhmYTQ5N2ZiMzZkMzQzMTQ1ZDNkYTU1NTI5NjZkOTRmZWM3ZjQ2ZTkwNDIzOWY1NGNmNTczNjAwY2EzYWE2OWYzYjUxYWMyNGE=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "spacelab",
+    "clientThemeVariant": "light",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": ["fr"],
+    "blueprints": []
+  }
+}

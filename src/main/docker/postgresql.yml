@@ -1,0 +1,11 @@
+version: '2'
+services:
+  teacherbox-postgresql:
+    image: postgres:11.4
+    # volumes:
+    #     - ~/volumes/jhipster/TeacherBox/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=TeacherBox
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
